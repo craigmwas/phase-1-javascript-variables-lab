@@ -1,10 +1,10 @@
-require ( './helpers.js' );
 
-const fs = require('fs');
-const path = require('path');
-const companyName = "Scuber";
-let mostProfitableNeighborhood = "Chelsea";
-let companyCeo = "Susan Smith";
+require ( './helpers.js' );
+z
+x
+
+const fs = require('fs')
+const path = require('path')
 
 const js = fs.readFileSync(path.resolve(__dirname, '..', 'index.js'), 'utf-8')
 
@@ -15,7 +15,7 @@ describe('index.js', function () {
     });
 
     it('is defined as a const', function () {
-      expect(js).to.match(/bconst\b\s+companyName/, "Expected companyName to be a const");
+      expect(js).to.match(/const companyName/, "Expected companyName to be a const");
     });
   });
 
